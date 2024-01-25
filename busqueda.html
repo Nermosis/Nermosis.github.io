@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Espacio Fundación Mutua. Deja que la curiosidad guíe tu camino" />
+    <meta name="keywords" content="Espacio, fundación mutua madrileña, ciencias sociales,educación, historia, salud" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Espacio Fundación Mutua</title>    
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://www.espaciofundacionmutua.es/">    
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen"/>
+    <script src="js/jquery.min.js"></script>    
+    <script src="js/swiper-bundle.min.js"></script>  
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+    <header id="headerPage">
+        <div class="container">
+            <a href="#" class="showMenu" title="Mostrar menú">
+                <span class="lines"></span>
+            </a>
+            <a href="index.html" rel="home" class="logo"><img src="img/logoEFM.svg" alt="Espacio Fundación Mutua">
+            </a>  
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="salud.html">Salud</a></li>
+                    <li><a href="social.html">Ciencias sociales</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="educacion.html">Educación</a></li>
+                    <li class="temas"><span>Formatos</span>
+                        <nav class="lstTemas">
+                            <ul>
+                            <li><a href="formato.html">Conferencias</a></li>
+                            <li><a href="formato.html">Podcasts</a></li>
+                            <li><a href="formato.html">Series</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                </ul>
+            </nav>
+            <span class="showSearch" aria-expanded="false">Buscador</span>
+            <p class="claim">Deja que la curiosidad guíe tu camino.</p>
+        </div>
+    </header>
+
+
+    <main id="mainContainer" role="main">
+        <div class="searchContent">
+            
+            <form action="/" method="" accept-charset="UTF-8" name="controlForm" id="controlForm">
+                <label class="sr-only" for="textSearch">Texto de búsqueda</label>
+                <input type="text" class="textSearch" id="textSearch" placeholder="¿Qué estás buscando?"> 
+                <span class="showFilter">Filtros</span>
+                <div class="contentFilters"> 
+                    <fieldset class="listTags"><legend>Filtrar por actualidad:</legend>
+                        <label for="visto"><input type="checkbox" id="visto">Lo más visto</label>
+                        <label for="reciente"><input type="checkbox" id="reciente">Añadido recientemente</label>
+                    </fieldset>
+                    <fieldset class="listTags"><legend>Filtrar por formatos:</legend>
+                        <label for="conferencia"><input type="checkbox" id="conferencia">Conferencias</label>
+                        <label for="podcast"><input type="checkbox" id="podcast">Podcast</label>
+                        <label for="serie"><input type="checkbox" id="serie">Series</label>      
+                    </fieldset>
+                    <fieldset class="listTags"><legend>Filtrar por categorías:</legend>
+                        <label for="salud"><input type="checkbox" id="salud">Salud</label>
+                        <label for="social"><input type="checkbox" id="social">Ciencias Sociales</label>
+                        <label for="historia"><input type="checkbox" id="historia">Historia</label>  
+                        <label for="educacion"><input type="checkbox" id="educacion">Educación</label>                  
+                    </fieldset>
+                    <fieldset class="fecha">
+                        <legend>Filtrar por fecha de publicación:</legend>
+                        <label for="mes" class="sr-only">Mes</label>
+                        <select id="mes">
+                            <option>Mes</option>
+                            <option>Enero</option>
+                            <option>febrero</option>
+                            <option>marzo</option>   
+                            <option>abril</option>
+                            <option>mayo</option> 
+                            <option>junio</option>
+                            <option>julio</option> 
+                            <option>agosto</option>
+                            <option>septiembre</option> 
+                            <option>octubre</option>
+                            <option>noviembre</option> 
+                            <option>diciembre</option> 
+                        </select>
+                        <label for="anyo" class="sr-only">Año</label>
+                        <select id="anyo">
+                            <option>Año</option>
+                            <option>2024</option>
+                            <option>2023</option>                            
+                            <option>2022</option>
+                            <option>2021</option>
+                            <option>2020</option>    
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="btns">
+                    <input type="submit" id="butttonSearch btn" class="butttonSearch btn" value="Buscar" title="Buscar">
+                    <input type="reset" class="btnReset btn" value="Borrar filtros" title="Borrar filtros">
+                </div>                
+            </form>
+        </div>
+        <div class="modHeader">
+            <h1 class="sr-only">Resultados de la búsqueda</h1>
+            <h2 class="titlePage">Hemos encontrado 34 resultados</h2>
+        </div>
+
+        <div class="modGrid">
+
+            <ul class="listItems">       
+                <li class="item">
+                    <figure class="contentImg">
+                        <img src="img/fotos/grid19.jpg" class="itemImg" alt="">
+                        <span class="formato"><img src="img/icoVideo.svg" alt=""></span>
+                    </figure>
+                    <div class="contentText">
+                        <span class="category">Historia</span>
+                        <h3 class="itemTitle"><a href="postVideo.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+                    </div>
+                </li>
+                <li class="item">
+                    <figure class="contentImg">
+                        <img src="img/fotos/grid20.jpg" class="itemImg" alt="">
+                        <span class="formato"><img src="img/icoConferencia.svg" alt=""></span>
+                    </figure>
+                    <div class="contentText">
+                        <span class="category">Historia</span>
+                        <h3 class="itemTitle"><a href="postAudio.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+                    </div>                
+                </li>
+                <li class="item">
+                    <figure class="contentImg">
+                        <img src="img/fotos/grid21.jpg" class="itemImg" alt="">
+                        <span class="formato"><img src="img/icoPodcast.svg" alt=""></span>
+                    </figure>
+                    <div class="contentText">
+                        <span class="category">Cultura y Arte</span>
+                        <h3 class="itemTitle"><a href="postVideo.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+                    </div>
+                </li>
+                <li class="item">
+                    <figure class="contentImg">
+                        <img src="img/fotos/grid1.jpg" class="itemImg" alt="">
+                        <span class="formato"><img src="img/icoVideo.svg" alt=""></span>
+                    </figure>
+                    <div class="contentText">
+                        <span class="category">Historia</span>
+                        <h3 class="itemTitle"><a href="postVideo.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+                    </div>
+                </li>
+                <li class="item">
+                    <figure class="contentImg">
+                        <img src="img/fotos/grid2.jpg" class="itemImg" alt="">
+                        <span class="formato"><img src="img/icoConferencia.svg" alt=""></span>
+                    </figure>
+                    <div class="contentText">
+                        <span class="category">Historia</span>
+                        <h3 class="itemTitle"><a href="postAudio.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+                    </div>                
+                </li>
+                <li class="item">
+                    <figure class="contentImg">
+                        <img src="img/fotos/grid3.jpg" class="itemImg" alt="">
+                        <span class="formato"><img src="img/icoPodcast.svg" alt=""></span>
+                    </figure>
+                    <div class="contentText">
+                        <span class="category">Cultura y Arte</span>
+                        <h3 class="itemTitle"><a href="postVideo.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+                    </div>
+                </li>
+                <li class="item">
+                    <figure class="contentImg">
+                        <img src="img/fotos/grid4.jpg" class="itemImg" alt="">
+                        <span class="formato"><img src="img/icoVideo.svg" alt=""></span>
+                    </figure>
+                    <div class="contentText">
+                        <span class="category">Historia</span>
+                        <h3 class="itemTitle"><a href="postVideo.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+                    </div>
+                </li>
+                <li class="item">
+                    <figure class="contentImg">
+                        <img src="img/fotos/grid5.jpg" class="itemImg" alt="">
+                        <span class="formato"><img src="img/icoConferencia.svg" alt=""></span>
+                    </figure>
+                    <div class="contentText">
+                        <span class="category">Historia</span>
+                        <h3 class="itemTitle"><a href="postAudio.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+                    </div>                
+                </li>
+                <li class="item">
+                    <figure class="contentImg">
+                        <img src="img/fotos/grid6.jpg" class="itemImg" alt="">
+                        <span class="formato"><img src="img/icoPodcast.svg" alt=""></span>
+                    </figure>
+                    <div class="contentText">
+                        <span class="category">Cultura y Arte</span>
+                        <h3 class="itemTitle"><a href="postVideo.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+                    </div>
+                </li>
+            </ul>
+          
+            <a href="#" class="btn loadMore">Cargar más</a>
+
+            <script>
+                $('.modTabs .loadMore').on('click', function (e) {
+                    e.preventDefault();
+                    //send a ajax request here and set html equal to data recevide by ajax
+                    html = '<li class="item">'
+                           // +'Load data from php/mysql database'
+                            +'<figure class="contentImg">'
+                            +'<img src="img/fotos/grid5.jpg" class="itemImg" alt="">'
+                            +'<span class="formato"><img src="img/icoConferencia.svg" alt=""></span>'
+                            +'</figure>'
+                            +'<div class="contentText">'
+                            +'<span class="category">Historia</span>'
+                            +'<h3 class="itemTitle"><a href="postAudio.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>'
+                            +'</div>'               
+                            +'</li>';
+                    $('.contentTab.current .listItems').append(html);
+                });
+            </script>
+
+        </div>
+    </main>
+
+    <footer id="footerPage">
+        <div class="container">
+            <a href="index.html" rel="home" class="logo"><img src="img/logoEFM.svg" alt="Espacio Fundación Mutua"></a>                
+            <div class="site-info">
+                <p class="title">Sobre nosotros</p>
+                <p>La Fundación Mutua Madrileña desarrolla distintas líneas de actuación en los campos de la salud, la cultura, la seguridad vial y la acción social. Así, intenta ofrecer el mayor servicio a la sociedad en general y a los mutualistas en particular.</p>
+            </div>
+            <div class="footShare">
+                <p class="title">Síguenos en redes sociales</p>
+                <nav class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/fundacionmutuamad" title="Se abre en nueva ventana" target="_blank"><img src="img/icoFacebook.svg" alt="Facebook"></a></li>
+                        <li><a href="https://twitter.com/fundacionmutua" title="Se abre en nueva ventana" target="_blank"><img src="img/icoTwitter.svg" alt="Twitter"></a></li>
+                        <li><a href="https://www.instagram.com/lamutua/" title="Se abre en nueva ventana" target="_blank"><img src="img/icoInstagram.svg" alt="Instagram"></a>
+                        <li><a href="https://open.spotify.com/show/2oTWR0ROnH4IhHIbg78pH4" title="Se abre en nueva ventana" target="_blank"><img src="img/icoSpotify.svg" alt="Spotify"></a></li>
+                        <li><a href="https://www.ivoox.com/podcast-podcast-fundacion-fmm_sq_f11675027_1.html" title="Se abre en nueva ventana" target="_blank"><img src="img/icoIvoox.svg" alt="Ivoox"></a></li>
+                        <li><a href="https://podcasts.apple.com/ie/podcast/los-podcast-de-la-fundaci%C3%B3n-fmm/id1673010958" title="Se abre en nueva ventana" target="_blank"><img src="img/icoApple-podcasts.svg" alt="Apple Podcasts"></a></li>                       
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="legal">
+            <ul class="menu">
+                <li><a target="_blank" title="Se abre en nueva ventana" href="https://www.fundacionmutua.es/contacto/">Contacto</a></li>
+                <li><a target="_blank" title="Se abre en nueva ventana" href="https://www.fundacionmutua.es/condiciones-legales/">Aviso Legal</a></li>
+                <li><a target="_blank" title="Se abre en nueva ventana" href="https://www.fundacionmutua.es/politica-cookies/">Política de cookies</a></li>
+                <li><abbr title="Copyright" lang="en">©</abbr> <a target="_blank" title="Se abre en nueva ventana" href="https://www.fundacionmutua.es/">Fundación Mutua Madrileña. 2023</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
